@@ -580,6 +580,21 @@ img::selection {
 }
 
 @media (max-width: 824px) {
+
+  .nav-bar-fixation{
+    position: relative;
+    width: 100%;
+    padding: 0;
+  }
+
+  .figma-box{
+    margin-top: 64px;
+  }
+
+  .augustas-image{
+    margin-top: 16px;
+  }
+
   .content-holder {
     flex-direction: column;
     gap: 0;

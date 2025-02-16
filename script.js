@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
       homeBtn.classList.add("active");
       designerBtn.classList.remove("active");
   
-      if (window.innerWidth > 1000) {
+      if (window.innerWidth > 824) {
         document.querySelector(".title-side-container").style.position = "fixed";
         document.querySelector(".title-side-container").style.overflow = "hidden";
         document.querySelector(".to-make-it-sticky-on-desktop").style.display = "block";
@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function () {
       designerBtn.classList.add("active");
       homeBtn.classList.remove("active");
   
-      if (window.innerWidth > 1000) {
+      if (window.innerWidth > 824) {
         document.querySelector(".title-side-container").style.position = "relative";
         document.querySelector(".title-side-container").style.overflow = "visible";
         document.querySelector(".to-make-it-sticky-on-desktop").style.display = "none";
